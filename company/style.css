@@ -1,0 +1,375 @@
+.tr {
+  outline: 1px solid blue;
+}
+
+.td {
+  outline: 2px solid red;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: green;
+}
+
+#header {
+  padding: 15px 0;
+}
+
+#header h1.logo {
+  font-size: 28px;
+  margin: 0px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+#header .logo a {
+  color: black;
+  text-decoration: none;
+}
+
+#header .logo a span {
+  color: #1bbd36;
+}
+
+#header .menu ul {
+  margin: 0px;
+  list-style: none;
+}
+
+#header .menu ul li {
+  padding: 10px 0 10px 28px;
+  font-weight: 500;
+}
+
+#header .menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#header .menu ul li a:hover {
+  color: #1bbd36;
+}
+
+#header .header-social-links {
+  padding-left: 14px;
+  margin-left: 20px;
+  border-left: 1px solid #c4c4c4;
+}
+
+#header .header-social-links a {
+  color: #a0a0a0;
+  padding-left: 6px;
+}
+
+#header .header-social-links a:hover {
+  color: #1bbd36;
+}
+
+#hero {
+  background: url("images/slide-1.jpg") no-repeat 0 0;
+  height: 600px;
+}
+
+#hero .hero-con {
+  height: 500px;
+}
+
+#hero .hero-con .text-center {
+  text-align: center;
+}
+
+#hero .hero-con .text-center:hover {
+  background-color: #1bbd36;
+}
+
+#hero .hero-con .text-center {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 12px 32px;
+  border-radius: 4px;
+  line-height: 1;
+  border: 2px solid #1bbd36;
+  margin: 10px;
+  color: #fff;
+  display: inline-block;
+}
+
+#hero .hero-content {
+  width: 60%;
+  background-color: black;
+  color: white;
+  opacity: 0.6;
+  padding: 20px;
+  border-top: 5px solid #1bbd36;
+}
+
+#about-us {
+  padding: 60px 0px;
+}
+
+#about-us .section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+#about-us .section-title p {
+  border: 2px solid #1bbd36;
+  margin: 20px auto;
+  width: 60px;
+}
+
+#about-us .row-content .left-content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+#about-us .row-content .left-content h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+#about-us .row-content .right-content i {
+  color: #1bbd36;
+  padding-right: 15px;
+}
+
+#about-us .row-content .right-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#about-us .row-content .right-content p.font-italic {
+  font-style: italic;
+  margin-left: -5px;
+}
+
+#services {
+  padding: 60px 0;
+  background-color: #f7f7f7;
+}
+
+#services .section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+#services .section-title p.tag {
+  border: 2px solid #1bbd36;
+  width: 60px;
+  margin: 20px auto;
+  content: "";
+}
+#services .services-name .icon-box {
+  text-align: center;
+}
+#services .services-name .icon-box .icon {
+  background-color: #fff;
+  padding: 70px 20px 80px 20px;
+  width: 30%;
+  margin-top: 20px;
+  box-shadow: aqua;
+}
+
+#services .services-name .icon-box .icon i.fa {
+  font-size: 50px;
+  color: orangered;
+}
+
+#services .icon h4 {
+  font-weight: 600;
+  font-size: 22px;
+  margin: 10px 0 15px 0;
+}
+
+#services .icon p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+#Portfolio {
+  padding: 60px 0;
+}
+#Portfolio .section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#Portfolio .section-title p {
+  border: 2px solid #1bbd36;
+  width: 60px;
+  margin: 20px auto;
+}
+
+#Portfolio .port-menu ul {
+  list-style: none;
+  margin: 0 auto 50px auto;
+  padding: 0;
+}
+
+#Portfolio .port-menu ul li {
+  padding: 8px 20px 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+#Portfolio .port-menu ul li.active {
+  color: #fff;
+  background-color: #1bbd36;
+}
+
+#Portfolio .port-menu ul li:hover {
+  background-color: #1bbd36;
+  color: #fff;
+}
+
+#Portfolio .portfolio-items .one {
+  width: 31.5%;
+}
+
+#Portfolio .portfolio-items .one img {
+  margin: 15px;
+}
+
+#Portfolio .portfolio-items .img {
+  /* height: 300px; */
+}
+
+#clients {
+  padding: 60px;
+}
+#clients .section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#clients .section-title p {
+  border: 2px solid #1bbd36;
+  margin: 20px auto;
+  width: 60px;
+}
+
+#clients .clients-wrap .logo {
+  padding: 20px;
+  height: 100px;
+  width: 25%;
+  border-right: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  border-top: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+}
+
+#clients .clients-wrap .logo img {
+  height: 36px;
+}
+
+#footer {
+  background-color: #111;
+}
+
+#footer .footer-top {
+  padding: 60px 0 30px 0;
+}
+
+#footer .footer-top .footer-contact {
+  width: 25%;
+}
+
+#footer .footer-top .footer-contact h3 {
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #fff;
+  padding: 2px 0 2px 0;
+}
+
+#footer .footer-top .footer-contact p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Roboto", sans-serif;
+}
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  width: 25%;
+}
+
+#footer .footer-top .footer-links i {
+  color: #1bbd36;
+  padding-right: 5px;
+}
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0px;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#footer .footer-top .footer-newsletter {
+  width: auto;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#footer .footer-top .footer-newsletter form {
+  margin-top: 30px;
+  padding: 6px 10px;
+  /* border-radius: 0 4px 4px 0; */
+}
+
+#footer .footer-top .footer-newsletter form input.email {
+  border-radius: 4px 0 0 4px;
+}
+
+#footer .footer-top .footer-newsletter form input {
+  padding: 4px 8px;
+  border: 0px;
+}
+
+#footer .footer-top .footer-newsletter form input.submit {
+  background: #1bbd36;
+  color: #fff;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  width: 25%;
+}
+
+#footer .footer-end .copyright {
+  color: #fff;
+}
+
+#footer .footer-end .social-links i {
+  color: #fff;
+}
+
+#footer .footer-end .social-links a:hover {
+  background-color: #1bbd36;
+  color: #1bbd36;
+}
